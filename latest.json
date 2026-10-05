@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.6.0",
-  "file": "su_model_library-0.6.0.rbz",
-  "sha256": "7f74f20048257a1bc63e293728c1c666632c5de6e19133a9d3c457770ae66a71",
-  "size": 59083,
+  "version": "0.7.0",
+  "file": "su_model_library-0.7.0.rbz",
+  "sha256": "3af350d2e871a1ba93e6209ee4d10f3843929c08716b10de175b04115c01d529",
+  "size": 62315,
   "released_at": "2026-10-05",
   "min_sketchup": 2024,
-  "notes": "### Changed\n- Auto-update now downloads from GitHub: the public repository\n  sugus888/Su-modelLibrary-releases holds only the signed release files\n  (the source stays private). No file needs to be copied by hand.\n  A folder or URL can still be set as `update_source`.\n- Automatic checks stay silent when offline or when nothing is published;\n  \"Check for Updates…\" explains what happened.\n- Release workflow publishes the signed files to the public repository and\n  creates a download page there with the installer.\n\n### Fixed\n- HTTPS downloads follow redirects (GitHub release downloads use them).",
-  "signature": "M/J3tDPhHbhXlTD3+BXXTfK6aT2XsiT8yYcSRHuTVNmiiksWt5oCYMEcQUdOV7AUs9os+rTwOAgd8Q3aX3XfQY0oz3GzBa16SLMtpvdKjR2jlm2Gz0kp/4HWuWEz/16cMrqvqNsJdCRF1SU8DW18OH8UfrBqjOcNVbB6SKy10/TfikD0/TgntODQaxSY2/FLaYQtfspqVJCeEKl286/DINGZ9y476nVktmnqlNjvktASVPVD0/Ak9UQNB+M2K7m2YkWNIGUm2zp1j9cYScV2W/SGTpyTOL70LnK0Wq1NHADkxgPkdaRipMvufCoxjwJOuwnA81ndw7oMGI1CpI4Nea82PvnjjGgWyZhRy4zE/6TqobtzrS0uCI3Wd+513iFx8JvmpofDy1dSLrWz+zCf9xZbF0uZdbya0NuhmP8vc3zygpFRmsnh9uiTBDmVmG6FapPNLosMSss578mtZlQOtOJGJmqugLC9Mh8EhF2aCdh/w8Lvr5/HmSyAT8IuWzzJ"
+  "notes": "### Added\n- Edit saved models: right-click a card (or its \"⋯\" button) → Edit details\n  to change name, category, tags and notes. When name or category changes,\n  the item folder is moved to match (empty folders are cleaned up).\n- Remove models: right-click → Remove from library…, after a confirmation\n  the item folder is moved to `<library>/_trash` (recoverable, nothing is\n  deleted). `_trash` and `_updates` are ignored when scanning.\n\n### Fixed\n- Library window reopened after being closed stayed on \"connecting\" and\n  Save did nothing: a closed HtmlDialog no longer delivers its callbacks, so\n  every opening now creates a fresh window.",
+  "signature": "TJ5+W8TMA4geDzulJi7PZXAxBi3KBCZuXoXcBYJIbXelspn4Vzh1gbKDryR7wSNtGK+KHsTZhvDbY4oRgatq1vr3Gr5HXFKxIeXADhkyQHHGF1NiAN5G5jd9ZSxFOWfyVm2uev7Fwkl9KULnCzRPtBr/P1mNGBUhvLLyCcgJWMBVqX3RkDZU6n0B6BGhzhG/TeeSGjrt3IAJevVRT2LdQV2cDNGl0GCjFItrb0U7v2jjZ8VXyLAHG4Y+k8VxL6vfEwXodhIXFi9O312hA9ewL1pZjxHmvi2Ag5CK5sNqWHF0P1SjLXrA8qIPMu8ktVJE++4sj1yyE/iyyuX3KWpEMmXgYZrw06r54derxQpi4/9RTHcgU1SZdKyRCO0hGN/TyyBvk2nnsAb5Q2iC2IqsIRVV/91kscVWsjpVyJ6LnkQFEddohuuWsQ6hsIGuiBK66RmyULpa9aFDUQzv8VOTnm6Sc91UYoXRwh+XfK0DLmwA2g09xTpXwUzso0JSnGOo"
 }
