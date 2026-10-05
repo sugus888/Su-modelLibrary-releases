@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.8.0",
-  "file": "su_model_library-0.8.0.rbz",
-  "sha256": "b12c621344ac16020dd88f0caee3195aa4467691b858bbbc52f17da2685c7abd",
-  "size": 82585,
+  "version": "0.9.0",
+  "file": "su_model_library-0.9.0.rbz",
+  "sha256": "8e73ae6c6ab9aae69e3d1d097e71dad8787b563861096bd62c588c247ac12d44",
+  "size": 87028,
   "released_at": "2026-10-05",
   "min_sketchup": 2024,
-  "notes": "### Added\n- Toolbar reorganised to 6 buttons: Open Library, Quick Add, Add (form) |\n  Scenes, Play/Stop, Light & Shadow. File import and library folder moved to\n  the Extensions menu.\n- Studio window, Scenes tab: list of the model's scenes; add a scene from the\n  current view, view/update camera/rename/delete, seconds to the next scene,\n  tick which scenes are played. Settings are stored on each scene.\n- Play: smooth camera fly-through of the ticked scenes (Catmull-Rom path, no\n  corners). Modes: smooth (eases only at start/end, for video) or stop at\n  each scene; optional loop. When scenes store sun settings, the sun time\n  moves gradually (clock and date interpolated separately).\n- Studio window, Light & Shadow tab: shadows on/off, time slider, presets\n  (08:00 / 12:00 / 15:00 / 17:30), date, light/dark, use sun for shading,\n  save the current lighting into a scene.",
-  "signature": "jScuiXaFIU6eGpSuL2t8OoivU2dnUpi9WR8e+xqgwGBWHEPbZS9Yhnd6nPwQXDOsesF8c/84h8ClpsLQwCOLNx1bgWiMOsN5H2Qvn6Iv/SAjOgXF0XY7VafsLlArBo1zTV75piYb9k+Ko1x0U1a+bANYrir1oYDgQBHQXZQ+wJ1u5VCcvYBdvYZRHCRzRA0rISfgDfahfn8veW9Ro1AACqCQM2hKfvHz/xUXNYaox2CHhkx8XYjgo/5k2qi3yRs/boqc+BeJgBlAWeio+jSBTJen3Smh+5x5nh+blZYGymqcRurGM8AYsc9GgOAwHqv8iQvWHvg0EfZP1rTQglD3kcde/mFvERihopJJAA8nkZsYzu7FoinMegkk7s3+TF08FldJmjngklkarMAWDaNOCrZ4QT/b8/WoGZfSzXq9V1JBOC/lYvRIAFH2dzvZTiwqA6GVkdfL0KxhKF8LzkFT74pCWp1c/rEvHS2fEmvZYCUxvgt41jK3RXTM72smfwbB"
+  "notes": "### Changed\n- Light & Shadow tab is picture-first: a sky illustration (colour by time\n  of day, sun on an east-west arc, house shadow) where the sun can be\n  dragged to set the time; six one-click lighting moods with sky thumbnails\n  (morning, noon, afternoon, evening, soft, flat bright without shadows);\n  season chips (summer/rainy/winter); shadow switch; light and shadow-side\n  sliders with icons. Exact time/date and \"use sun for shading\" moved to\n  an Advanced section. Moods set time, light, dark and shadows together.\n- Library window closes after picking a model so it can be placed right\n  away (checkbox \"Close window after picking\" turns this off). The last\n  category and search are restored when the window opens again.",
+  "signature": "JZuARo3ObSlt+VRtSlpUUdFu8kNPIYO72OOBhNQGRTxxiHJ2g1mECDjaRVvP11AugUQP8E7RgfJ0/ax3jExbQ/rcm7ao32lER3OweO/tg3tZkamLu4hwU7MO7evxufuy/avsJBmXDjrYbCAaYOAANM+Yp9hNOhbCVQrHrrimRiWGNkLV6wc7YA8XCq6qXjuVwQq7TcOe+VvddzDNfvYN9EGBm7P3sAhyZgPGH9+E4MIkDdhNGEjuOoocEbpiiwlj15dyvwlz2U5GGp/f7+JX71FXMyIELcClUuPfU3mv6MRoQ13CWf8it679Er1yHGRT2Z65ethKD9bN72rXYvRMnnd72XJAH0GIsDE+91LPMzRZZNuahx4lVL1F7rtTfYDqQ3lVTopBiPYntiORwuFkYcj63Xc2uoJVaqOabaxna8YuRswbgUHwTeyEpwcEl77gj2GkH6KiOcU5AJIASZQKaTnUq7MrJ2r4cai9GuOT/99y2JbPPNoHoo9+UKJqOfRj"
 }
