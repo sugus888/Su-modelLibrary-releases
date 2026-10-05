@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "version": "0.6.0",
+  "file": "su_model_library-0.6.0.rbz",
+  "sha256": "7f74f20048257a1bc63e293728c1c666632c5de6e19133a9d3c457770ae66a71",
+  "size": 59083,
+  "released_at": "2026-10-05",
+  "min_sketchup": 2024,
+  "notes": "### Changed\n- Auto-update now downloads from GitHub: the public repository\n  sugus888/Su-modelLibrary-releases holds only the signed release files\n  (the source stays private). No file needs to be copied by hand.\n  A folder or URL can still be set as `update_source`.\n- Automatic checks stay silent when offline or when nothing is published;\n  \"Check for Updates…\" explains what happened.\n- Release workflow publishes the signed files to the public repository and\n  creates a download page there with the installer.\n\n### Fixed\n- HTTPS downloads follow redirects (GitHub release downloads use them).",
+  "signature": "M/J3tDPhHbhXlTD3+BXXTfK6aT2XsiT8yYcSRHuTVNmiiksWt5oCYMEcQUdOV7AUs9os+rTwOAgd8Q3aX3XfQY0oz3GzBa16SLMtpvdKjR2jlm2Gz0kp/4HWuWEz/16cMrqvqNsJdCRF1SU8DW18OH8UfrBqjOcNVbB6SKy10/TfikD0/TgntODQaxSY2/FLaYQtfspqVJCeEKl286/DINGZ9y476nVktmnqlNjvktASVPVD0/Ak9UQNB+M2K7m2YkWNIGUm2zp1j9cYScV2W/SGTpyTOL70LnK0Wq1NHADkxgPkdaRipMvufCoxjwJOuwnA81ndw7oMGI1CpI4Nea82PvnjjGgWyZhRy4zE/6TqobtzrS0uCI3Wd+513iFx8JvmpofDy1dSLrWz+zCf9xZbF0uZdbya0NuhmP8vc3zygpFRmsnh9uiTBDmVmG6FapPNLosMSss578mtZlQOtOJGJmqugLC9Mh8EhF2aCdh/w8Lvr5/HmSyAT8IuWzzJ"
+}
