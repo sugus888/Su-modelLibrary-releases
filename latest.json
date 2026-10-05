@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.7.0",
-  "file": "su_model_library-0.7.0.rbz",
-  "sha256": "3af350d2e871a1ba93e6209ee4d10f3843929c08716b10de175b04115c01d529",
-  "size": 62315,
+  "version": "0.8.0",
+  "file": "su_model_library-0.8.0.rbz",
+  "sha256": "b12c621344ac16020dd88f0caee3195aa4467691b858bbbc52f17da2685c7abd",
+  "size": 82585,
   "released_at": "2026-10-05",
   "min_sketchup": 2024,
-  "notes": "### Added\n- Edit saved models: right-click a card (or its \"⋯\" button) → Edit details\n  to change name, category, tags and notes. When name or category changes,\n  the item folder is moved to match (empty folders are cleaned up).\n- Remove models: right-click → Remove from library…, after a confirmation\n  the item folder is moved to `<library>/_trash` (recoverable, nothing is\n  deleted). `_trash` and `_updates` are ignored when scanning.\n\n### Fixed\n- Library window reopened after being closed stayed on \"connecting\" and\n  Save did nothing: a closed HtmlDialog no longer delivers its callbacks, so\n  every opening now creates a fresh window.",
-  "signature": "TJ5+W8TMA4geDzulJi7PZXAxBi3KBCZuXoXcBYJIbXelspn4Vzh1gbKDryR7wSNtGK+KHsTZhvDbY4oRgatq1vr3Gr5HXFKxIeXADhkyQHHGF1NiAN5G5jd9ZSxFOWfyVm2uev7Fwkl9KULnCzRPtBr/P1mNGBUhvLLyCcgJWMBVqX3RkDZU6n0B6BGhzhG/TeeSGjrt3IAJevVRT2LdQV2cDNGl0GCjFItrb0U7v2jjZ8VXyLAHG4Y+k8VxL6vfEwXodhIXFi9O312hA9ewL1pZjxHmvi2Ag5CK5sNqWHF0P1SjLXrA8qIPMu8ktVJE++4sj1yyE/iyyuX3KWpEMmXgYZrw06r54derxQpi4/9RTHcgU1SZdKyRCO0hGN/TyyBvk2nnsAb5Q2iC2IqsIRVV/91kscVWsjpVyJ6LnkQFEddohuuWsQ6hsIGuiBK66RmyULpa9aFDUQzv8VOTnm6Sc91UYoXRwh+XfK0DLmwA2g09xTpXwUzso0JSnGOo"
+  "notes": "### Added\n- Toolbar reorganised to 6 buttons: Open Library, Quick Add, Add (form) |\n  Scenes, Play/Stop, Light & Shadow. File import and library folder moved to\n  the Extensions menu.\n- Studio window, Scenes tab: list of the model's scenes; add a scene from the\n  current view, view/update camera/rename/delete, seconds to the next scene,\n  tick which scenes are played. Settings are stored on each scene.\n- Play: smooth camera fly-through of the ticked scenes (Catmull-Rom path, no\n  corners). Modes: smooth (eases only at start/end, for video) or stop at\n  each scene; optional loop. When scenes store sun settings, the sun time\n  moves gradually (clock and date interpolated separately).\n- Studio window, Light & Shadow tab: shadows on/off, time slider, presets\n  (08:00 / 12:00 / 15:00 / 17:30), date, light/dark, use sun for shading,\n  save the current lighting into a scene.",
+  "signature": "jScuiXaFIU6eGpSuL2t8OoivU2dnUpi9WR8e+xqgwGBWHEPbZS9Yhnd6nPwQXDOsesF8c/84h8ClpsLQwCOLNx1bgWiMOsN5H2Qvn6Iv/SAjOgXF0XY7VafsLlArBo1zTV75piYb9k+Ko1x0U1a+bANYrir1oYDgQBHQXZQ+wJ1u5VCcvYBdvYZRHCRzRA0rISfgDfahfn8veW9Ro1AACqCQM2hKfvHz/xUXNYaox2CHhkx8XYjgo/5k2qi3yRs/boqc+BeJgBlAWeio+jSBTJen3Smh+5x5nh+blZYGymqcRurGM8AYsc9GgOAwHqv8iQvWHvg0EfZP1rTQglD3kcde/mFvERihopJJAA8nkZsYzu7FoinMegkk7s3+TF08FldJmjngklkarMAWDaNOCrZ4QT/b8/WoGZfSzXq9V1JBOC/lYvRIAFH2dzvZTiwqA6GVkdfL0KxhKF8LzkFT74pCWp1c/rEvHS2fEmvZYCUxvgt41jK3RXTM72smfwbB"
 }
