@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.10.0",
-  "file": "su_model_library-0.10.0.rbz",
-  "sha256": "437357656bd2055ed03c9a91fb31aa1940f11b8f02333f63578d07ef02745733",
-  "size": 98258,
+  "version": "0.11.0",
+  "file": "su_model_library-0.11.0.rbz",
+  "sha256": "0f6ac8ec215783d5ae95e2e5bf5bf493915c3e7177fcae559902108a3303d4d1",
+  "size": 106108,
   "released_at": "2026-10-06",
   "min_sketchup": 2024,
-  "notes": "### Added\n- Resize tool (toolbar button 4, right-click on a selected model): click a\n  model (Shift adds more) and type in the Measurements box: `2.5m` (size of\n  the active axis, proportions kept), `w=1.2m` / `d=60cm` / `h=900mm`,\n  `1.2m,0.6m,0.9m` (exact width, depth, height), `x1.5` or `150%`.\n  Arrow keys pick the axis (Right width, Left depth, Up height). The model\n  is resized along its own axes about its bottom centre, so it stays on the\n  floor; one undo step. Box and dimensions are drawn on screen.\n- Library management: drag a card onto a category to move it, double-click\n  a name to rename it, right-click a category to rename/move the whole\n  category, card menu \"Replace with selection\" swaps the stored model and\n  thumbnail and keeps name/category/tags.\n\n### Changed\n- Clicking a card's name no longer places the model (it is used for\n  renaming); click the picture to place.",
-  "signature": "g8QuSRrNuKSIR5jb8T09dCHkKZkQmVpNzl2t2Y0ZecExgUmsBcxFdaDvW15ZYhA6VdcSr7r9Tntse6sxy/Y858/Ytf8YU8byVuXzfq+cewrq8FwO7OF9LByZZObzhBOABHtFmRs7GjGa2MYbjRjeC4KGDEZgiTrlxu8ludrpJimwFlbXEmmdvRClbP7X8aKAEXVUSjh+VmjoWMbJfwtCJ34spNtj/k4Lc078NeEk70Pw9+94/yLdC7nPKBawfzrqtcr6hBzFKq99mgCESgMsaEnzD8JSBF3/v5vc9fdCekBqQJvg6sWw4eSoGruMM92iMmosisGTwj0cd6HQVZMaT3i4O3SM2O/zj/YRqTUNETufhRBtFo8zUKyobpiUYgIp8wYYVauNQVrMmw+3PNfKFO//mCE9LLQgZZp5c9fbEiUYl3h/BkS5jp/9Tsrr2kxyy16TqdLfE13XIJ8vYtWAQXw0YaQKD+Q7Lh3m+ENMtoZlPaKsp3BnYgr86Az6Mhof"
+  "notes": "### Added\n- Material library. Save: toolbar \"Save Material from Model\" (eyedropper) or\n  \"Pick material\" in the library window, then click a surface: the material\n  you see (face, back face, or the group/component colour) opens in the save\n  form with a swatch, name and tags pre-filled. Stored as .skm (texture,\n  colour, scale, opacity) with a thumbnail in `<library>/_materials`.\n- Library window has Models | Materials tabs. Clicking a material swatch\n  selects it and starts SketchUp's Paint Bucket, so it is poured onto faces\n  (Ctrl/Shift modifiers work as usual). A material is loaded into a model\n  once and reused afterwards.\n- Materials support the same management as models: drag to a category,\n  double-click rename, edit, remove to `_trash`, rename category.",
+  "signature": "F6x979FUWOzIEVt6jBxjelbzgGZohhfubRp7sx7orONyF5f5xlCaSi/Btl4wu0oEjQGCa0Kgchg+Dmzq6kRIn6oxVxBgVWlfULP1rQ72HspegLBOXxixt3btQBSddopjmpVuHRZFaLbPqt+oNdJFGkWh4BtCZ5bIfeueZFMJ0onKuZsWOG0d1M5LGCIRylSoc3yNjU3yxRpGX6Uarst7UhjXaIeBfik/6EQQULoMHcKfr22uQFyllYTlfwhQl6ayJDfGqhZJ6NpasZEnF/BOA5YF7huuuvOc/cS9eB9wYHeJMLHSEd/wbEFETBq53wMBKQvVDEukZFysU4Ncpi7q5T8VldJfwYlW0xOrx7FfuH9HtCqoonc4ST22UyFmN/WoTgg+i24JPTJLYeWpq8pzy4u5w5KIUL2A3YGzaaaLC3wiSaMyMXLAaGZ+PfFTU4QGK2wTp7SHlnIOGfLkgMHq/zHnih/uDaM2w7fT946drBu5NugqeL/fbNysGctn12N1"
 }
