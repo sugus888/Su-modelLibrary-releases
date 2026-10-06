@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.13.1",
-  "file": "su_model_library-0.13.1.rbz",
-  "sha256": "5747e1b065f81fa40fae4155eb6251fffbcd542ee9ac04561b9b9ce159368828",
-  "size": 110833,
+  "version": "0.13.2",
+  "file": "su_model_library-0.13.2.rbz",
+  "sha256": "0aca9ed8ea5f1f06573b1abb485378d83747549ea8b77b0d602ad9be0f503cd8",
+  "size": 110952,
   "released_at": "2026-10-06",
   "min_sketchup": 2024,
-  "notes": "Includes everything in 0.13.0, which was never published because the CI\nsigning secret was not set.\n\n### Added\n- Favorites: \"Add to favorites\" in a card's menu. Favorites are listed at\n  the top of the sidebar; click one to place it.\n- Search history: the last 15 searches appear under the search box.\n- Automatic updates: new signed versions install without asking (on by\n  default; toggle in Extensions > SU Model Library > Install Updates\n  Automatically). Restart SketchUp to use the new version.\n\n### Changed\n- Wider model cards (160 px minimum) so previews no longer overlap.",
-  "signature": "BmAdjHyH/W1hgBKc6br8xmk7Va7KNvFNBxqnnWw1L/XHP9BZPeFcJ//L7P/BbD7c9mDKs8Veo0YdkvrYAz/fnxlbqIIn3xtmU/j7B3b8n1DV9dbffY9NwRIu3RKSKhKDh+0FQaYd8oT/XxP6IQjxlMS1TXKhgpQ4qKUcahVU477OPczqZCo6SRD/UbowaoQqohqCzYZoWj7ckmZ0vkeOiaZxjMzSA1i4m8fHCNPjzTuMwZLxk+KYURliBfwwVmlDXDy+XHOXbAs1PHH217o/0mdP+Vknm46qx/gSh7yEd0PIQuS0LJ9SFb5JEE/hi/Rcrm3Js+qdPHbufnXZsC6k9aMUB9yDcJd962r6pMO+k5ofDNZbDwbrShK5yz1ajirYF7GbNil8bUFiwEEf9TiDzdHIxT/qp+hi84bN6Z0K8UUf4N0ljyeTXd1sBud3Z6+66D69Txrba3+g66DxBTyJDsGT/JObPw52X49mPBMWQBvbJJZtTF9aG4Gs4uj+gsRa"
+  "notes": "### Fixed\n- Model cards were cut off (no name or category visible) and the next row of\n  previews overlapped them. Chromium sized each grid row from a card with\n  `overflow: hidden` as if it were empty; rows now size to their content.",
+  "signature": "YUIcvdZK+Mi2biuazLru/Fwk2ICado4n54ffy/Jlc5tfaD58TsGWyO0llUFHxn/39mgnNts6ufhvn1eZwKtfBEG++q6HwI0hbABr7l3k0HCnEKvPyl6MJ3dbme0Yh3yIa1yy6vIUo+PA6gvtUvq21tAR39cjDepHMvjv+wrjhjw/KsSfLff8Zy4ydmC3lJKfAwVWxXTOeQKSd78n85dX+vb5M6qzOxYwPpInCyNt6Xx8cM7mL5ZqnpZsB/xHgbUfubFMi5AJ6wnwGXwWxCwWt3uBNgCcgh21wlAQSf8rmJqYPTZCqwmEXae+auVX0bnashOiYiApsajembo8EJkbR/mgJMNC8VnJ8Ir74SsePIB+UCVgbN7nNJTh0l7hQtRgPo0ZdJUUGCSnH1eEPS8JUr1g6Rg7zfFxWhFMUzraOQx14XEt07CjktRApNG0K/Bo3McxLsUGFKvJEm4mu6q69RlpnJ4owKJSkdlemL4KlmPbA3mSJ4PAua2Ij/oeViRU"
 }
