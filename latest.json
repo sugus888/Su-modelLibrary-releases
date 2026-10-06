@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.9.0",
-  "file": "su_model_library-0.9.0.rbz",
-  "sha256": "8e73ae6c6ab9aae69e3d1d097e71dad8787b563861096bd62c588c247ac12d44",
-  "size": 87028,
-  "released_at": "2026-10-05",
+  "version": "0.9.1",
+  "file": "su_model_library-0.9.1.rbz",
+  "sha256": "1dcdcce16546be5d9792749cf824135bfe500d086184eaf642f04b977dbae59a",
+  "size": 88638,
+  "released_at": "2026-10-06",
   "min_sketchup": 2024,
-  "notes": "### Changed\n- Light & Shadow tab is picture-first: a sky illustration (colour by time\n  of day, sun on an east-west arc, house shadow) where the sun can be\n  dragged to set the time; six one-click lighting moods with sky thumbnails\n  (morning, noon, afternoon, evening, soft, flat bright without shadows);\n  season chips (summer/rainy/winter); shadow switch; light and shadow-side\n  sliders with icons. Exact time/date and \"use sun for shading\" moved to\n  an Advanced section. Moods set time, light, dark and shadows together.\n- Library window closes after picking a model so it can be placed right\n  away (checkbox \"Close window after picking\" turns this off). The last\n  category and search are restored when the window opens again.",
-  "signature": "JZuARo3ObSlt+VRtSlpUUdFu8kNPIYO72OOBhNQGRTxxiHJ2g1mECDjaRVvP11AugUQP8E7RgfJ0/ax3jExbQ/rcm7ao32lER3OweO/tg3tZkamLu4hwU7MO7evxufuy/avsJBmXDjrYbCAaYOAANM+Yp9hNOhbCVQrHrrimRiWGNkLV6wc7YA8XCq6qXjuVwQq7TcOe+VvddzDNfvYN9EGBm7P3sAhyZgPGH9+E4MIkDdhNGEjuOoocEbpiiwlj15dyvwlz2U5GGp/f7+JX71FXMyIELcClUuPfU3mv6MRoQ13CWf8it679Er1yHGRT2Z65ethKD9bN72rXYvRMnnd72XJAH0GIsDE+91LPMzRZZNuahx4lVL1F7rtTfYDqQ3lVTopBiPYntiORwuFkYcj63Xc2uoJVaqOabaxna8YuRswbgUHwTeyEpwcEl77gj2GkH6KiOcU5AJIASZQKaTnUq7MrJ2r4cai9GuOT/99y2JbPPNoHoo9+UKJqOfRj"
+  "notes": "### Changed\n- Emoji replaced by a consistent set of line icons (icons.js, inline SVG) in\n  the Studio and library windows: lighting moods, seasons, shadow/light/dark,\n  play/stop, camera, sun badge and the card options button. Emoji looked\n  different on every OS.",
+  "signature": "ZpsNimKMGY+eovCSa2+OvBa8SdOc+BgeBgSKdKNDaWTyS29WmPE8xwqFVSic2v1lEGrBkZ36Acnn/ys9HodtK6UI8h+ZNkbQDAvhcYD+MkGMDq/2ArOaD3mNkyC8WNEZv97Fqrx/asfH8SAgx0SGNgTvJ8RgVVdERWX0gtdsQFEkrAfOTzOLBOF445k4hhZN2Tdk0R2m3kACrg00OpqREckQvRB217y8GaDWlBUqzWXLLrrG6jgvs3Whn8CkHJ7dgj35/yILzMgEQaawHR32rhR1KrkDPDeVIILYXpFhYLICt0YFUt8gIYLNjvlrj5x1s9OcLK0QBDwTKSlc11D1NrgRIeR2SmSuE5GYN5IJuEf2PBGAXGJD0dLpxLWRE4jPi/DOMmChupuTce1FFtIi3c3Rj9gvvZd6690UEVwpu1IM5usl5wyTzjGv8068zOluTtocN7YQAx/rW6jmeZiw4soMFC28Q+edUZpsL5ZLAp+YbpT5Sv5NNjDdIb03mnMe"
 }
