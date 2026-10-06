@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.11.0",
-  "file": "su_model_library-0.11.0.rbz",
-  "sha256": "0f6ac8ec215783d5ae95e2e5bf5bf493915c3e7177fcae559902108a3303d4d1",
-  "size": 106108,
+  "version": "0.12.0",
+  "file": "su_model_library-0.12.0.rbz",
+  "sha256": "e19581efa51a69919887c6014149d3baf33c8cd1efb040164248ecd78b360270",
+  "size": 109340,
   "released_at": "2026-10-06",
   "min_sketchup": 2024,
-  "notes": "### Added\n- Material library. Save: toolbar \"Save Material from Model\" (eyedropper) or\n  \"Pick material\" in the library window, then click a surface: the material\n  you see (face, back face, or the group/component colour) opens in the save\n  form with a swatch, name and tags pre-filled. Stored as .skm (texture,\n  colour, scale, opacity) with a thumbnail in `<library>/_materials`.\n- Library window has Models | Materials tabs. Clicking a material swatch\n  selects it and starts SketchUp's Paint Bucket, so it is poured onto faces\n  (Ctrl/Shift modifiers work as usual). A material is loaded into a model\n  once and reused afterwards.\n- Materials support the same management as models: drag to a category,\n  double-click rename, edit, remove to `_trash`, rename category.",
-  "signature": "F6x979FUWOzIEVt6jBxjelbzgGZohhfubRp7sx7orONyF5f5xlCaSi/Btl4wu0oEjQGCa0Kgchg+Dmzq6kRIn6oxVxBgVWlfULP1rQ72HspegLBOXxixt3btQBSddopjmpVuHRZFaLbPqt+oNdJFGkWh4BtCZ5bIfeueZFMJ0onKuZsWOG0d1M5LGCIRylSoc3yNjU3yxRpGX6Uarst7UhjXaIeBfik/6EQQULoMHcKfr22uQFyllYTlfwhQl6ayJDfGqhZJ6NpasZEnF/BOA5YF7huuuvOc/cS9eB9wYHeJMLHSEd/wbEFETBq53wMBKQvVDEukZFysU4Ncpi7q5T8VldJfwYlW0xOrx7FfuH9HtCqoonc4ST22UyFmN/WoTgg+i24JPTJLYeWpq8pzy4u5w5KIUL2A3YGzaaaLC3wiSaMyMXLAaGZ+PfFTU4QGK2wTp7SHlnIOGfLkgMHq/zHnih/uDaM2w7fT946drBu5NugqeL/fbNysGctn12N1"
+  "notes": "### Added\n- Resize by dragging: the selected model shows grips: red (width), green\n  (depth), blue (height) in the middle of its sides and a dark one on the\n  top corner (uniform). Drag a grip to resize; a dashed box shows the new\n  size with live dimensions (also in the Measurements box). Shift while\n  dragging keeps proportions, Esc cancels, and each drag is one undo step.\n  Typing sizes still works.\n- Core::DragMath: grip position from the mouse ray (closest point between\n  the grip line and the ray), tested.",
+  "signature": "l0AqqkWNHIXc6NWAo9ww7Dl4s+nfYc0RIO6E1q1YqEsAWRsOgIraLKsP2/uDJWkHR+2XQp4dDF3kW0rsHWbQJ+ItOvdt13cJ/YFPvyafGs5v2tKYXUK6BnCWtVkSN3wcC9VmH237nmiOjOmJdw+46HY6iFBcH9RWn+UbapslZ9+5lSkWMU8osKaQSy4xio/VHwiwCvi5DpgNqZ8ge3Cim6ZFv0HlUQkrOqBtdf3glrH+f9m9P+d53ezHLobCc1YcOAkBLheQ8fcYBDv9jMXG9Y8N+VMgJHVT3r9OZ4a7mU2dfahFrK7hr17xzRuAPmcAwyGeTnGID6D7MASUIT/hOewyi12yGuNwRUb4Wp5nnGLc0MKrLNAXSx6ynSzTPFY/ybqho7ywLi/DyrNUxqPO6tjhZ9DMUcHjDNhJW08H1N1ICfcqoA61z+YJ30Ah1EmmR5sAincvWy2x44qrSlcUae3UmTk3atRAHHA//nuTSttP/AZua3eK8uKijRnergiV"
 }
