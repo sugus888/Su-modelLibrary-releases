@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.9.1",
-  "file": "su_model_library-0.9.1.rbz",
-  "sha256": "1dcdcce16546be5d9792749cf824135bfe500d086184eaf642f04b977dbae59a",
-  "size": 88638,
+  "version": "0.10.0",
+  "file": "su_model_library-0.10.0.rbz",
+  "sha256": "437357656bd2055ed03c9a91fb31aa1940f11b8f02333f63578d07ef02745733",
+  "size": 98258,
   "released_at": "2026-10-06",
   "min_sketchup": 2024,
-  "notes": "### Changed\n- Emoji replaced by a consistent set of line icons (icons.js, inline SVG) in\n  the Studio and library windows: lighting moods, seasons, shadow/light/dark,\n  play/stop, camera, sun badge and the card options button. Emoji looked\n  different on every OS.",
-  "signature": "ZpsNimKMGY+eovCSa2+OvBa8SdOc+BgeBgSKdKNDaWTyS29WmPE8xwqFVSic2v1lEGrBkZ36Acnn/ys9HodtK6UI8h+ZNkbQDAvhcYD+MkGMDq/2ArOaD3mNkyC8WNEZv97Fqrx/asfH8SAgx0SGNgTvJ8RgVVdERWX0gtdsQFEkrAfOTzOLBOF445k4hhZN2Tdk0R2m3kACrg00OpqREckQvRB217y8GaDWlBUqzWXLLrrG6jgvs3Whn8CkHJ7dgj35/yILzMgEQaawHR32rhR1KrkDPDeVIILYXpFhYLICt0YFUt8gIYLNjvlrj5x1s9OcLK0QBDwTKSlc11D1NrgRIeR2SmSuE5GYN5IJuEf2PBGAXGJD0dLpxLWRE4jPi/DOMmChupuTce1FFtIi3c3Rj9gvvZd6690UEVwpu1IM5usl5wyTzjGv8068zOluTtocN7YQAx/rW6jmeZiw4soMFC28Q+edUZpsL5ZLAp+YbpT5Sv5NNjDdIb03mnMe"
+  "notes": "### Added\n- Resize tool (toolbar button 4, right-click on a selected model): click a\n  model (Shift adds more) and type in the Measurements box: `2.5m` (size of\n  the active axis, proportions kept), `w=1.2m` / `d=60cm` / `h=900mm`,\n  `1.2m,0.6m,0.9m` (exact width, depth, height), `x1.5` or `150%`.\n  Arrow keys pick the axis (Right width, Left depth, Up height). The model\n  is resized along its own axes about its bottom centre, so it stays on the\n  floor; one undo step. Box and dimensions are drawn on screen.\n- Library management: drag a card onto a category to move it, double-click\n  a name to rename it, right-click a category to rename/move the whole\n  category, card menu \"Replace with selection\" swaps the stored model and\n  thumbnail and keeps name/category/tags.\n\n### Changed\n- Clicking a card's name no longer places the model (it is used for\n  renaming); click the picture to place.",
+  "signature": "g8QuSRrNuKSIR5jb8T09dCHkKZkQmVpNzl2t2Y0ZecExgUmsBcxFdaDvW15ZYhA6VdcSr7r9Tntse6sxy/Y858/Ytf8YU8byVuXzfq+cewrq8FwO7OF9LByZZObzhBOABHtFmRs7GjGa2MYbjRjeC4KGDEZgiTrlxu8ludrpJimwFlbXEmmdvRClbP7X8aKAEXVUSjh+VmjoWMbJfwtCJ34spNtj/k4Lc078NeEk70Pw9+94/yLdC7nPKBawfzrqtcr6hBzFKq99mgCESgMsaEnzD8JSBF3/v5vc9fdCekBqQJvg6sWw4eSoGruMM92iMmosisGTwj0cd6HQVZMaT3i4O3SM2O/zj/YRqTUNETufhRBtFo8zUKyobpiUYgIp8wYYVauNQVrMmw+3PNfKFO//mCE9LLQgZZp5c9fbEiUYl3h/BkS5jp/9Tsrr2kxyy16TqdLfE13XIJ8vYtWAQXw0YaQKD+Q7Lh3m+ENMtoZlPaKsp3BnYgr86Az6Mhof"
 }
