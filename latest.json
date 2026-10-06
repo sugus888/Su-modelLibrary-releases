@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.12.0",
-  "file": "su_model_library-0.12.0.rbz",
-  "sha256": "e19581efa51a69919887c6014149d3baf33c8cd1efb040164248ecd78b360270",
-  "size": 109340,
+  "version": "0.13.1",
+  "file": "su_model_library-0.13.1.rbz",
+  "sha256": "5747e1b065f81fa40fae4155eb6251fffbcd542ee9ac04561b9b9ce159368828",
+  "size": 110833,
   "released_at": "2026-10-06",
   "min_sketchup": 2024,
-  "notes": "### Added\n- Resize by dragging: the selected model shows grips: red (width), green\n  (depth), blue (height) in the middle of its sides and a dark one on the\n  top corner (uniform). Drag a grip to resize; a dashed box shows the new\n  size with live dimensions (also in the Measurements box). Shift while\n  dragging keeps proportions, Esc cancels, and each drag is one undo step.\n  Typing sizes still works.\n- Core::DragMath: grip position from the mouse ray (closest point between\n  the grip line and the ray), tested.",
-  "signature": "l0AqqkWNHIXc6NWAo9ww7Dl4s+nfYc0RIO6E1q1YqEsAWRsOgIraLKsP2/uDJWkHR+2XQp4dDF3kW0rsHWbQJ+ItOvdt13cJ/YFPvyafGs5v2tKYXUK6BnCWtVkSN3wcC9VmH237nmiOjOmJdw+46HY6iFBcH9RWn+UbapslZ9+5lSkWMU8osKaQSy4xio/VHwiwCvi5DpgNqZ8ge3Cim6ZFv0HlUQkrOqBtdf3glrH+f9m9P+d53ezHLobCc1YcOAkBLheQ8fcYBDv9jMXG9Y8N+VMgJHVT3r9OZ4a7mU2dfahFrK7hr17xzRuAPmcAwyGeTnGID6D7MASUIT/hOewyi12yGuNwRUb4Wp5nnGLc0MKrLNAXSx6ynSzTPFY/ybqho7ywLi/DyrNUxqPO6tjhZ9DMUcHjDNhJW08H1N1ICfcqoA61z+YJ30Ah1EmmR5sAincvWy2x44qrSlcUae3UmTk3atRAHHA//nuTSttP/AZua3eK8uKijRnergiV"
+  "notes": "Includes everything in 0.13.0, which was never published because the CI\nsigning secret was not set.\n\n### Added\n- Favorites: \"Add to favorites\" in a card's menu. Favorites are listed at\n  the top of the sidebar; click one to place it.\n- Search history: the last 15 searches appear under the search box.\n- Automatic updates: new signed versions install without asking (on by\n  default; toggle in Extensions > SU Model Library > Install Updates\n  Automatically). Restart SketchUp to use the new version.\n\n### Changed\n- Wider model cards (160 px minimum) so previews no longer overlap.",
+  "signature": "BmAdjHyH/W1hgBKc6br8xmk7Va7KNvFNBxqnnWw1L/XHP9BZPeFcJ//L7P/BbD7c9mDKs8Veo0YdkvrYAz/fnxlbqIIn3xtmU/j7B3b8n1DV9dbffY9NwRIu3RKSKhKDh+0FQaYd8oT/XxP6IQjxlMS1TXKhgpQ4qKUcahVU477OPczqZCo6SRD/UbowaoQqohqCzYZoWj7ckmZ0vkeOiaZxjMzSA1i4m8fHCNPjzTuMwZLxk+KYURliBfwwVmlDXDy+XHOXbAs1PHH217o/0mdP+Vknm46qx/gSh7yEd0PIQuS0LJ9SFb5JEE/hi/Rcrm3Js+qdPHbufnXZsC6k9aMUB9yDcJd962r6pMO+k5ofDNZbDwbrShK5yz1ajirYF7GbNil8bUFiwEEf9TiDzdHIxT/qp+hi84bN6Z0K8UUf4N0ljyeTXd1sBud3Z6+66D69Txrba3+g66DxBTyJDsGT/JObPw52X49mPBMWQBvbJJZtTF9aG4Gs4uj+gsRa"
 }
