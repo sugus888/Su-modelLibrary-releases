@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "version": "0.13.2",
-  "file": "su_model_library-0.13.2.rbz",
-  "sha256": "0aca9ed8ea5f1f06573b1abb485378d83747549ea8b77b0d602ad9be0f503cd8",
-  "size": 110952,
-  "released_at": "2026-10-06",
+  "version": "0.14.0",
+  "file": "su_model_library-0.14.0.rbz",
+  "sha256": "f05e8fb75491b66e3d1c1daeac365f0cd24c5975b462f7c20c7a03e34048e8f2",
+  "size": 317160,
+  "released_at": "2026-10-08",
   "min_sketchup": 2024,
-  "notes": "### Fixed\n- Model cards were cut off (no name or category visible) and the next row of\n  previews overlapped them. Chromium sized each grid row from a card with\n  `overflow: hidden` as if it were empty; rows now size to their content.",
-  "signature": "YUIcvdZK+Mi2biuazLru/Fwk2ICado4n54ffy/Jlc5tfaD58TsGWyO0llUFHxn/39mgnNts6ufhvn1eZwKtfBEG++q6HwI0hbABr7l3k0HCnEKvPyl6MJ3dbme0Yh3yIa1yy6vIUo+PA6gvtUvq21tAR39cjDepHMvjv+wrjhjw/KsSfLff8Zy4ydmC3lJKfAwVWxXTOeQKSd78n85dX+vb5M6qzOxYwPpInCyNt6Xx8cM7mL5ZqnpZsB/xHgbUfubFMi5AJ6wnwGXwWxCwWt3uBNgCcgh21wlAQSf8rmJqYPTZCqwmEXae+auVX0bnashOiYiApsajembo8EJkbR/mgJMNC8VnJ8Ir74SsePIB+UCVgbN7nNJTh0l7hQtRgPo0ZdJUUGCSnH1eEPS8JUr1g6Rg7zfFxWhFMUzraOQx14XEt07CjktRApNG0K/Bo3McxLsUGFKvJEm4mu6q69RlpnJ4owKJSkdlemL4KlmPbA3mSJ4PAua2Ij/oeViRU"
+  "notes": "### Added\n- Render: a new Render tab in the Studio window (and a toolbar button) renders\n  a realistic image of the current view, with the sun and light from the Light\n  tab. Choose quality (Draft / Normal / Best) and image size, then save the\n  image as PNG. Uses the user's own computer:\n  - With Blender (free; 4.2 or newer recommended, tested with 5.2)\n    installed, renders with Cycles on the graphics card. Blender is found\n    automatically, or pick it with \"Choose Blender…\". It runs in the\n    background; SketchUp stays usable and the render can be cancelled. The\n    picture shows up early and clears up as the render goes on.\n  - Without Blender, renders a preview with WebGL in the window itself.\n- Scene playback can repeat as a boomerang: to the last scene and back to\n  the first, again and again (Repeat: Once / Loop / Boomerang, replacing the\n  Loop checkbox; a ticked Loop carries over).\n- Live view (like V-Ray's interactive render): a picture in the Render tab\n  that follows SketchUp as you work. Orbit, walk through scenes, move the sun\n  or edit the model and it updates at once, then sharpens. Works on every\n  computer (WebGL); turn it off with \"Stop Live\".\n  Hidden objects and hidden tags are left out. Materials named like metal,\n  mirror, glass, marble, fabric (English or Thai) get a matching finish.\n\n### Fixed\n- Saving one selected group or component now keeps what is stored on the\n  object itself, not only its contents: other plugins' data (e.g. a One Click\n  Cabinet cabinet stays a cabinet that plugin can edit), its material, tag,\n  name, rotation and scale. Placing it gives back the same object; one Undo\n  removes it. Models saved earlier are placed as before.\n- No more \"Group241#5\"-style names suggested when saving an unnamed group.\n- The Studio window no longer jumps back to the tab it was opened on when it\n  is refreshed (for example after clicking in SketchUp).",
+  "signature": "YETLR45iOszDzUW8lT/dDkqSPWo+t8HFigBK59+eqp9+bR1p9olMml8FA8kSjJ/YbQG3QARaiEOqVsmfKOBYKh7DD6tR6a/jDTxNjvvxELVyeCsI6RwxtfZP7J3t83lIL90KD511WFQ1uORiQY5yr3dYhRpaP5KctTgAsonsBfKxDgiO/ZLE86+3bWa+xTSTiMhs24SR/hvhGA6ieNdkaM8uzGpycXE/QF93eqG9ZdSANC8+pV1rQO6Pn5PDcpOOLXH3nfO+usjcgaB55zFjXuLinkCS6pIVDeyCYQ4w8MmlZrvxXjKEovBPXzJ9KP27nVcYhG4sZVj+BkafnDmmmaTGoGaaaeZVdJfwoL17hS5CJK/hY+ypcUBuqjfETg3H6Q7mGFSvlpW7fh7qQb1lhW0mNhu6q4JGy6vH+EFtzfrTuO0EoQvmZjDSt9xLALcWvL7F7VYPsoEhQXgaKMmwQA/PzRqKZC3XtGOv+KyW4t6QvYGGUMoqRC+BWgds0AR/"
 }
